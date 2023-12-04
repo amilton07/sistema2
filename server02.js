@@ -6,7 +6,7 @@ app.use(express.json())
 
 app.get("/", function (req, res) {
     res.status(200).json({
-        nome: "Fábio de Jesus Xavier",
+        nome: "Amilton Silva",
         version: "1.0.0",
         curso: "Info"
     })
